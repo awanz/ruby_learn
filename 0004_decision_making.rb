@@ -13,7 +13,6 @@ else
 end
 
 # if elsif else
-
 if x < 10
     puts "kurang dari 10"
 elsif x = 15
@@ -21,3 +20,9 @@ elsif x = 15
 else
     puts "x tidak di handle"
 end
+
+# ternary statment
+y = 5
+
+a = (y > 3) ? "y lebih besar" : " y lebih kecil sama"
+puts a
